@@ -1,0 +1,5 @@
+deep_sort_realtime==1.3.2
+numpy==2.1.1
+opencv_python==4.10.0.84
+twilio==8.5.0
+ultralytics==8.2.90
