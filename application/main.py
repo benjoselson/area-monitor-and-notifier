@@ -16,7 +16,7 @@ from threading import Thread
 KEEP_RUNNING = True
 
 # load the pre-trained YOLOv8n model
-os.chdir(r"C:\Users\Ben User\PycharmProjects\area-monitor-and-notifier\application")
+os.chdir(os.chdir(os.getcwd()))
 model_path = Path('../resources/yolov8n.pt')
 model = YOLO(model_path)
 tracker = DeepSort(max_age=10)
