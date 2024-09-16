@@ -139,7 +139,6 @@ class PhoneNumGui:
             written_numbers = ['+1' + number for number in phone_numbers]
             empty_smsnums()
             write_smsnums(content=written_numbers)
-            # print(phone_numbers)
             read_smsnums()
             self.master.destroy()
 
