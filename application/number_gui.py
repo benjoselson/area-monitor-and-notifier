@@ -10,7 +10,6 @@ class EnvVarGUI:
         self.master.geometry('400x320')
 
         self.missing_vars = self.check_env_vars()
-        self.missing_vars = False
         if self.missing_vars:
             self.create_widgets()
         else:
