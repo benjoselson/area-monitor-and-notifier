@@ -16,7 +16,7 @@ from threading import Thread
 KEEP_RUNNING = True
 
 # load the pre-trained YOLOv8n model
-os.chdir(r"C:\Users\Ben User\PycharmProjects\marycariolayolo\application")
+os.chdir(r"C:\Users\Ben User\PycharmProjects\area-monitor-and-notifier\application")
 model_path = Path('../resources/yolov8n.pt')
 model = YOLO(model_path)
 tracker = DeepSort(max_age=10)
@@ -134,8 +134,8 @@ def correct_info():
 
 def messenger():
     global KEEP_RUNNING
-    # global person_exists
     person_still_there = False
+    
     while KEEP_RUNNING:
         time.sleep(0.5)
         correct_state = correct_info()
