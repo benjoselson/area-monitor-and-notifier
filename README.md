@@ -1,1 +1,1 @@
-# marycariolayolo
+A program that takes a live video input and uses the YOLOv8 algorithm (trained on the COCO dataset) to recognize humans and then send a text message to inputted phone number/numbers. The user can also temporarily interrupt live detection to resize the monitored area that triggers the notification.
